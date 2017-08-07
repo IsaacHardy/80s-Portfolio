@@ -12,11 +12,11 @@ COLORS:
   width: 8em;
   height: 4em;
   border: 2px solid #C568A5;
-  background: #32183E;
-  /*transform: perspective(400px) scaleZ(10) rotateX(40deg);*/
+  -webkit-box-shadow: 0px 0px 27px 5px #B72569;
+  -moz-box-shadow: 0px 0px 27px 5px #B72569;
+  box-shadow: 0px 0px 27px 5px #B72569;
 }
 
 .Square:hover {
-  /*border: 2px solid #444243;*/
   background: #C568A5;
 }

@@ -34,5 +34,11 @@ COLORS:
 }
 
 .navlink {
+  padding: 1em;
+  text-decoration: none;
+}
 
+.navlink:hover {
+  border: 1px solid #9CDAFF;
+  padding: 1em;
 }

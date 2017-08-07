@@ -11,7 +11,7 @@ COLORS:
 .Home {
   height: 30em;
   margin-bottom: -6em;
-  z-index: 1;
+  background: radial-gradient(ellipse farthest-corner at 1000px -600px, white, #32183E 65%);
   display: flex;
   flex-direction: column;
   flex-wrap: nowrap;

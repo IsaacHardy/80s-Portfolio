@@ -8,6 +8,7 @@ class App extends Component {
     return (
       <div className="App">
         <nav className="nav">
+          <NavLink activeClassName="selected" className="navlink" to="/">Isaac Hardy</NavLink>
           <NavLink activeClassName="selected" className="navlink" to="/">Home</NavLink>
         </nav>
         <Sun />
