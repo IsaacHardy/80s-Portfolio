@@ -1,0 +1,22 @@
+/*
+COLORS:
+#9CDAFF
+#C568A5
+#FFD265
+#BCFF7C
+#CD94FF
+#444243
+*/
+
+.Square {
+  width: 8em;
+  height: 4em;
+  border: 2px solid #C568A5;
+  background: #32183E;
+  /*transform: perspective(400px) scaleZ(10) rotateX(40deg);*/
+}
+
+.Square:hover {
+  /*border: 2px solid #444243;*/
+  background: #C568A5;
+}

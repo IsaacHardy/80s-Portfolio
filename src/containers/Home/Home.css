@@ -1,0 +1,19 @@
+/*
+COLORS:
+#9CDAFF
+#C568A5
+#FFD265
+#BCFF7C
+#CD94FF
+#444243
+*/
+
+.Home {
+  height: 30em;
+  margin-bottom: -6em;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  transform: perspective(300px) scaleY(1) rotateX(50deg) skewX(0deg);
+}

@@ -1,0 +1,38 @@
+/*
+COLORS:
+#9CDAFF
+#C568A5
+#FFD265
+#BCFF7C
+#CD94FF
+#444243
+#32183E
+#12172D
+*/
+
+
+
+.App {
+  text-align: center;
+  background: #12172D;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/*.selected {
+  color: #444243;
+  background: #C568A5;
+}*/
+
+.nav {
+  position: fixed;
+  top: 0;
+}
+
+.navlink {
+
+}

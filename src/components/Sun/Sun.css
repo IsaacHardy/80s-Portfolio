@@ -1,0 +1,28 @@
+/*
+COLORS:
+#9CDAFF
+#C568A5
+#FFD265
+#BCFF7C
+#CD94FF
+#444243
+#12172D
+#B72569
+*/
+
+.Sun {
+  width: 25em;
+  height: 25em;
+  border-radius: 50%;
+  z-index: 0;
+  top: 5em;
+  background: linear-gradient(180deg, #fce949, #FB2F55 70%);
+  position: absolute;
+  -webkit-box-shadow: 0px -10px 30px 1px #B72569;
+  -moz-box-shadow: 0px -10px 30px 1px #B72569;
+  box-shadow: 0px -10px 30px 1px #B72569;
+}
+
+.Sun:hover {
+
+}

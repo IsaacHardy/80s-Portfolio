@@ -1,8 +1,19 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+import App from './containers/App/index.js';
+import Home from './containers/Home/index.js';
+import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import registerServiceWorker from './registerServiceWorker';
 
-ReactDOM.render(<App />, document.getElementById('root'));
+ReactDOM.render(
+  <BrowserRouter>
+    <App>
+      <Switch>
+        <Route exact path="/" component={Home} />
+      </Switch>
+    </App>
+  </BrowserRouter>
+
+  , document.getElementById('root'));
 registerServiceWorker();
