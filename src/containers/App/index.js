@@ -9,7 +9,8 @@ class App extends Component {
       <div className="App">
         <nav className="nav">
           <NavLink activeClassName="selected" className="navlink" to="/">Isaac Hardy</NavLink>
-          <NavLink activeClassName="selected" className="navlink" to="/">Home</NavLink>
+          <a target="_blank" className="gitHub" href="https://github.com/IsaacHardy"><i className="fa fa-github" aria-hidden="true"></i></a>
+          <a target="_blank" className="linkedIn" href="https://www.linkedin.com/in/isaachardy/"><i className="fa fa-linkedin" aria-hidden="true"></i></a>
         </nav>
         <Sun />
         {this.props.children}

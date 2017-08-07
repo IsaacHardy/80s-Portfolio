@@ -11,7 +11,7 @@ COLORS:
 .Square {
   width: 8em;
   height: 4em;
-  border: 2px solid #C568A5;
+  border: 1px solid #C568A5;
   -webkit-box-shadow: 0px 0px 27px 5px #B72569;
   -moz-box-shadow: 0px 0px 27px 5px #B72569;
   box-shadow: 0px 0px 27px 5px #B72569;

@@ -21,10 +21,27 @@ COLORS:
   -webkit-box-shadow: 0px -10px 30px 1px #B72569;
   -moz-box-shadow: 0px -10px 30px 1px #B72569;
   box-shadow: 0px -10px 30px 1px #B72569;
+  filter: brightness(85%);
 }
 
 .Sun:hover {
-  animation: pulse 2s infinite;
+  animation: pulse 1s infinite;
+}
+
+.Sun:hover + .Home{
+  animation: brightness 1s infinite;
+}
+
+@keyframes brightness {
+  0%, 100% {
+    background: radial-gradient(ellipse farthest-corner at 1000px -600px, white, #32183E 65%);
+  }
+  25%, 75% {
+    background: radial-gradient(ellipse farthest-corner at 1000px -550px, white, #32183E 65%);
+  }
+  50% {
+    background: radial-gradient(ellipse farthest-corner at 1000px -500px, white, #32183E 65%);
+  }
 }
 
 @keyframes pulse {
@@ -32,10 +49,18 @@ COLORS:
     -webkit-box-shadow: 0px -10px 30px 1px #B72569;
     -moz-box-shadow: 0px -10px 30px 1px #B72569;
     box-shadow: 0px -10px 30px 1px #B72569;
+    filter: brightness(85%);
+  }
+  25%, 75% {
+    -webkit-box-shadow: 0px -10px 60px 1px #B72569;
+    -moz-box-shadow: 0px -10px 60px 1px #B72569;
+    box-shadow: 0px -10px 60px 1px #B72569;
+    filter: brightness(90%);
   }
   50% {
     -webkit-box-shadow: 0px -10px 60px 1px #B72569;
     -moz-box-shadow: 0px -10px 60px 1px #B72569;
     box-shadow: 0px -10px 60px 1px #B72569;
+    filter: brightness(100%);
   }
 }
