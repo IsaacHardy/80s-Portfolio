@@ -9,9 +9,9 @@ COLORS:
 */
 
 .Home {
-  height: 30em;
+  height: 60vh;
   margin-bottom: -6em;
-  background: radial-gradient(ellipse farthest-corner at 1000px -600px, white, #32183E 65%);
+  background: radial-gradient(ellipse farthest-corner at 90vw -50vw, white, #32183E 65%);
   display: flex;
   flex-direction: column;
   flex-wrap: nowrap;

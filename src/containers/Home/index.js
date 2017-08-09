@@ -11,7 +11,7 @@ class Home extends Component {
       x = w.innerWidth || e.clientWidth || g.clientWidth,
       y = w.innerHeight || e.clientHeight || g.clientHeight;
 
-    let boxesPerRow = Math.ceil(x / 80);
+    let boxesPerRow = Math.ceil(x / 75);
     let numberOfRows = Math.floor(y / 100);
 
     let median = boxesPerRow % 2 === 0 ? (boxesPerRow / 2) : Math.round(boxesPerRow / 2);
