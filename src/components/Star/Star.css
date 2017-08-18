@@ -6,12 +6,12 @@
 	border-radius: 50%;
 	z-index: 0;
 
-	-webkit-transform: rotate(0deg) scale(0.08);
+	-webkit-transform: rotate(0deg) scale(0.20);
 	-webkit-backface-visibility: hidden;
 	-webkit-animation: blinkAfter 15s infinite ease-out;
 }
 .twinkle {
-  width: 100%;
+  width: 120%;
   height: 100%;
   border-radius: 50%;
 

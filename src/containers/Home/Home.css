@@ -10,8 +10,6 @@ COLORS:
 
 .Home {
   height: 450px;
-  width: 125em;
-  overflow: hidden;
   z-index: 2;
   margin-bottom: -6em;
   background: radial-gradient(ellipse farthest-corner at 75vw -50vw, white, #32183E 65%);
