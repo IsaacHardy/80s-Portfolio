@@ -9,7 +9,8 @@ COLORS:
 */
 
 .Home {
-  height: 60vh;
+  height: 450px;
+  z-index: 2;
   margin-bottom: -6em;
   background: radial-gradient(ellipse farthest-corner at 90vw -50vw, white, #32183E 65%);
   display: flex;

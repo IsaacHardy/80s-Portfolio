@@ -14,7 +14,7 @@ COLORS:
   width: 25em;
   height: 25em;
   border-radius: 50%;
-  z-index: 0;
+  z-index: 1;
   top: 22%;
   background: linear-gradient(180deg, #fce949, #FB2F55 70%);
   position: absolute;
@@ -33,34 +33,124 @@ COLORS:
 }
 
 @keyframes brightness {
-  0%, 100% {
-    background: radial-gradient(ellipse farthest-corner at 90vw -50vw, white, #32183E 65%);
-  }
-  25%, 75% {
-    background: radial-gradient(ellipse farthest-corner at 90vw -45vw, white, #32183E 65%);
-  }
-  50% {
-    background: radial-gradient(ellipse farthest-corner at 90vw -40vw, white, #32183E 65%);
-  }
+  0% {
+		background: radial-gradient(ellipse farthest-corner at 90vw -50vw, white, #32183E 65%);
+	}
+	4% {
+		background: radial-gradient(ellipse farthest-corner at 90vw -48vw, white, #32183E 65%);
+	}
+	8% {
+		background: radial-gradient(ellipse farthest-corner at 90vw -45vw, white, #32183E 65%);
+	}
+  15% {
+		background: radial-gradient(ellipse farthest-corner at 90vw -43vw, white, #32183E 65%);
+	}
+  35% {
+		background: radial-gradient(ellipse farthest-corner at 90vw -40vw, white, #32183E 65%);
+	}
+  45% {
+		background: radial-gradient(ellipse farthest-corner at 90vw -38vw, white, #32183E 65%);
+	}
+	50% {
+		background: radial-gradient(ellipse farthest-corner at 90vw -35vw, white, #32183E 65%);
+	}
+	52% {
+		background: radial-gradient(ellipse farthest-corner at 90vw -38vw, white, #32183E 65%);
+	}
+	54% {
+		background: radial-gradient(ellipse farthest-corner at 90vw -40vw, white, #32183E 65%);
+	}
+  65% {
+		background: radial-gradient(ellipse farthest-corner at 90vw -43vw, white, #32183E 65%);
+	}
+  85% {
+		background: radial-gradient(ellipse farthest-corner at 90vw -45vw, white, #32183E 65%);
+	}
+  95% {
+		background: radial-gradient(ellipse farthest-corner at 90vw -48vw, white, #32183E 65%);
+	}
+	100% {
+		background: radial-gradient(ellipse farthest-corner at 90vw -50vw, white, #32183E 65%);
+	}
 }
 
 @keyframes pulse {
-  0%, 100% {
+  0% {
     -webkit-box-shadow: 0px -10px 30px 1px #B72569;
     -moz-box-shadow: 0px -10px 30px 1px #B72569;
     box-shadow: 0px -10px 30px 1px #B72569;
     filter: brightness(85%);
   }
-  25%, 75% {
-    -webkit-box-shadow: 0px -10px 60px 1px #B72569;
-    -moz-box-shadow: 0px -10px 60px 1px #B72569;
-    box-shadow: 0px -10px 60px 1px #B72569;
+  4% {
+    -webkit-box-shadow: 0px -10px 35px 1px #B72569;
+    -moz-box-shadow: 0px -10px 35px 1px #B72569;
+    box-shadow: 0px -10px 35px 1px #B72569;
+    filter: brightness(88%);
+  }
+  8% {
+    -webkit-box-shadow: 0px -10px 40px 1px #B72569;
+    -moz-box-shadow: 0px -10px 40px 1px #B72569;
+    box-shadow: 0px -10px 40px 1px #B72569;
     filter: brightness(90%);
+  }
+  15% {
+    -webkit-box-shadow: 0px -10px 45px 1px #B72569;
+    -moz-box-shadow: 0px -10px 45px 1px #B72569;
+    box-shadow: 0px -10px 45px 1px #B72569;
+    filter: brightness(93%);
+  }
+  35% {
+    -webkit-box-shadow: 0px -10px 50px 1px #B72569;
+    -moz-box-shadow: 0px -10px 50px 1px #B72569;
+    box-shadow: 0px -10px 50px 1px #B72569;
+    filter: brightness(95%);
+  }
+  45% {
+    -webkit-box-shadow: 0px -10px 55px 1px #B72569;
+    -moz-box-shadow: 0px -10px 55px 1px #B72569;
+    box-shadow: 0px -10px 55px 1px #B72569;
+    filter: brightness(98%);
   }
   50% {
     -webkit-box-shadow: 0px -10px 60px 1px #B72569;
     -moz-box-shadow: 0px -10px 60px 1px #B72569;
     box-shadow: 0px -10px 60px 1px #B72569;
     filter: brightness(100%);
+  }
+  54% {
+    -webkit-box-shadow: 0px -10px 55px 1px #B72569;
+    -moz-box-shadow: 0px -10px 55px 1px #B72569;
+    box-shadow: 0px -10px 55px 1px #B72569;
+    filter: brightness(98%);
+  }
+  58% {
+    -webkit-box-shadow: 0px -10px 50px 1px #B72569;
+    -moz-box-shadow: 0px -10px 50px 1px #B72569;
+    box-shadow: 0px -10px 50px 1px #B72569;
+    filter: brightness(95%);
+  }
+  65% {
+    -webkit-box-shadow: 0px -10px 45px 1px #B72569;
+    -moz-box-shadow: 0px -10px 45px 1px #B72569;
+    box-shadow: 0px -10px 45px 1px #B72569;
+    filter: brightness(93%);
+  }
+  85% {
+    -webkit-box-shadow: 0px -10px 40px 1px #B72569;
+    -moz-box-shadow: 0px -10px 40px 1px #B72569;
+    box-shadow: 0px -10px 40px 1px #B72569;
+    filter: brightness(90%);
+  }
+  95% {
+    -webkit-box-shadow: 0px -10px 35px 1px #B72569;
+    -moz-box-shadow: 0px -10px 35px 1px #B72569;
+    box-shadow: 0px -10px 35px 1px #B72569;
+    filter: brightness(88%);
+  }
+  100% {
+    -webkit-box-shadow: 0px -10px 30px 1px #B72569;
+    -moz-box-shadow: 0px -10px 30px 1px #B72569;
+    box-shadow: 0px -10px 30px 1px #B72569;
+    filter: brightness(85%);
   }
 }

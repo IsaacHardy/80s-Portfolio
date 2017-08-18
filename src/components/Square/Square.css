@@ -9,6 +9,7 @@ COLORS:
 */
 
 .Square {
+  z-index: 1;
   width: 8em;
   height: 4em;
   border: 1px solid #C568A5;
