@@ -26,7 +26,7 @@ class Home extends Component {
       let squares = [];
 
       for (let box = 1; box <= boxesPerRow; box++) {
-        squares.push(<Square key={box} deg={box}/>)
+        squares.push(<Square key={box}/>);
       }
 
       data.push(<div className="squareRows" style={rowStyle} key={row}>{squares}</div>);

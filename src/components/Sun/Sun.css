@@ -25,52 +25,52 @@ COLORS:
 }
 
 .Sun:hover {
-  animation: pulse 1s infinite;
+  animation: pulse 1.5s infinite;
 }
 
 .Sun:hover + .Home{
-  animation: brightness 1s infinite;
+  animation: brightness 1.5s infinite;
 }
 
 @keyframes brightness {
   0% {
-		background: radial-gradient(ellipse farthest-corner at 90vw -50vw, white, #32183E 65%);
+		background: radial-gradient(ellipse farthest-corner at 75vw -50vw, white, #32183E 65%);
 	}
 	4% {
-		background: radial-gradient(ellipse farthest-corner at 90vw -48vw, white, #32183E 65%);
+		background: radial-gradient(ellipse farthest-corner at 75vw -48vw, white, #32183E 65%);
 	}
 	8% {
-		background: radial-gradient(ellipse farthest-corner at 90vw -45vw, white, #32183E 65%);
+		background: radial-gradient(ellipse farthest-corner at 75vw -45vw, white, #32183E 65%);
 	}
   15% {
-		background: radial-gradient(ellipse farthest-corner at 90vw -43vw, white, #32183E 65%);
+		background: radial-gradient(ellipse farthest-corner at 75vw -43vw, white, #32183E 65%);
 	}
   35% {
-		background: radial-gradient(ellipse farthest-corner at 90vw -40vw, white, #32183E 65%);
+		background: radial-gradient(ellipse farthest-corner at 75vw -40vw, white, #32183E 65%);
 	}
   45% {
-		background: radial-gradient(ellipse farthest-corner at 90vw -38vw, white, #32183E 65%);
+		background: radial-gradient(ellipse farthest-corner at 75vw -38vw, white, #32183E 65%);
 	}
 	50% {
-		background: radial-gradient(ellipse farthest-corner at 90vw -35vw, white, #32183E 65%);
+		background: radial-gradient(ellipse farthest-corner at 75vw -35vw, white, #32183E 65%);
 	}
 	52% {
-		background: radial-gradient(ellipse farthest-corner at 90vw -38vw, white, #32183E 65%);
+		background: radial-gradient(ellipse farthest-corner at 75vw -38vw, white, #32183E 65%);
 	}
 	54% {
-		background: radial-gradient(ellipse farthest-corner at 90vw -40vw, white, #32183E 65%);
+		background: radial-gradient(ellipse farthest-corner at 75vw -40vw, white, #32183E 65%);
 	}
   65% {
-		background: radial-gradient(ellipse farthest-corner at 90vw -43vw, white, #32183E 65%);
+		background: radial-gradient(ellipse farthest-corner at 75vw -43vw, white, #32183E 65%);
 	}
   85% {
-		background: radial-gradient(ellipse farthest-corner at 90vw -45vw, white, #32183E 65%);
+		background: radial-gradient(ellipse farthest-corner at 75vw -45vw, white, #32183E 65%);
 	}
   95% {
-		background: radial-gradient(ellipse farthest-corner at 90vw -48vw, white, #32183E 65%);
+		background: radial-gradient(ellipse farthest-corner at 75vw -48vw, white, #32183E 65%);
 	}
 	100% {
-		background: radial-gradient(ellipse farthest-corner at 90vw -50vw, white, #32183E 65%);
+		background: radial-gradient(ellipse farthest-corner at 75vw -50vw, white, #32183E 65%);
 	}
 }
 
