@@ -4,12 +4,12 @@ import './Home.css';
 
 class Home extends Component {
   render() {
-    let w = window,
-      d = document,
-      e = d.documentElement,
-      g = d.getElementsByTagName('body')[0],
-      x = w.innerWidth || e.clientWidth || g.clientWidth,
-      y = w.innerHeight || e.clientHeight || g.clientHeight;
+    let win = window,
+      doc = document,
+      el = doc.documentElement,
+      g = doc.getElementsByTagName('body')[0],
+      x = win.innerWidth || el.clientWidth || g.clientWidth,
+      y = win.innerHeight || el.clientHeight || g.clientHeight;
 
     let boxesPerRow = Math.ceil(x / 75);
     let numberOfRows = Math.floor(y / 100);
