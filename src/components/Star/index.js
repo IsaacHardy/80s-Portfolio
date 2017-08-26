@@ -3,10 +3,6 @@ import React, { Component } from 'react';
 import './Star.css';
 
 class Star extends Component {
-  constructor(props) {
-    super(props);
-  }
-
   render() {
     let starStyle = {
       top: Math.random() * 100 + '%',
