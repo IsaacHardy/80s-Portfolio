@@ -81,14 +81,6 @@ COLORS:
   top: -15%;
   left: 0%;
 	margin-top: (25% / 2);
-
-  animation: rotate 200s infinite linear;
-  backface-visibility: hidden;
-  transform-style: preserve-3d;
-
-	-webkit-animation: rotate 200s infinite linear;
-	-webkit-backface-visibility: hidden;
-	-webkit-transform-style: preserve-3d;
 }
 
 @keyframes rotate {
