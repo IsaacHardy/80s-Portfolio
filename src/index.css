@@ -4,11 +4,9 @@
 
 body, html {
     margin: 0;
-    height: 100%;
-    overflow: hidden;
-		overflow-y: hidden;
-    overflow-x: hidden;
-    -webkit-overflow-scrolling: touch;
+    /*height: 100%;*/
+		overflow-x: hidden;
+    overflow-y: hidden;
     padding: 0;
     font-family: 'Sedgwick Ave', cursive;
 }

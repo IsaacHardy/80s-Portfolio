@@ -9,9 +9,9 @@ class App extends Component {
     let getAnimationStyle = (num) => {
       let style = {
         "animation": "rotate " + num + "s" + " infinite linear",
-        "-webkit-animation": "rotate " + num + "s" + " infinite linear",
-        "backface-visibility": "hidden",
-        "transform-style": "preserve-3d"
+        "WebkitAnimation": "rotate " + num + "s" + " infinite linear",
+        "backfaceVisibility": "hidden",
+        "transformStyle": "preserve-3d"
       };
       return style;
     };

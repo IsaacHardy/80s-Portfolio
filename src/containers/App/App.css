@@ -17,9 +17,14 @@ COLORS:
   height: 100vh;
   display: flex;
 	z-index: 1;
+  position: fixed;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  overflow: hidden;
+  overflow-y: hidden;
+  overflow-x: hidden;
+  -webkit-overflow-scrolling: touch;
 }
 
 .selected {
