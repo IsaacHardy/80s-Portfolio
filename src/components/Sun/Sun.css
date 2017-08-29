@@ -11,16 +11,16 @@ COLORS:
 */
 
 .Sun {
-  width: 25em;
-  height: 25em;
+  width: 38vw;
+  height: 38vw;
   border-radius: 50%;
   z-index: 1;
   top: 22%;
   background: linear-gradient(180deg, #fce949, #FB2F55 70%);
   position: absolute;
-  -webkit-box-shadow: 0px -10px 30px 1px #B72569;
-  -moz-box-shadow: 0px -10px 30px 1px #B72569;
-  box-shadow: 0px -10px 30px 1px #B72569;
+  -webkit-box-shadow: 0px -.5vw 3vw .5vw #B72569;
+  -moz-box-shadow: 0px -.5vw 3vw .5vw #B72569;
+  box-shadow: 0px -.5vw 3vw .5vw #B72569;
   filter: brightness(85%);
 }
 
@@ -34,123 +34,131 @@ COLORS:
 
 @keyframes brightness {
   0% {
-		background: radial-gradient(ellipse farthest-corner at 75vw -50vw, white, #32183E 65%);
+		background: radial-gradient(ellipse farthest-corner at 118vw -40vw, white, #32183E 65%);
 	}
 	4% {
-		background: radial-gradient(ellipse farthest-corner at 75vw -48vw, white, #32183E 65%);
+		background: radial-gradient(ellipse farthest-corner at 118vw -38vw, white, #32183E 65%);
 	}
 	8% {
-		background: radial-gradient(ellipse farthest-corner at 75vw -45vw, white, #32183E 65%);
+		background: radial-gradient(ellipse farthest-corner at 118vw -35vw, white, #32183E 65%);
 	}
   15% {
-		background: radial-gradient(ellipse farthest-corner at 75vw -43vw, white, #32183E 65%);
+		background: radial-gradient(ellipse farthest-corner at 118vw -33vw, white, #32183E 65%);
 	}
   35% {
-		background: radial-gradient(ellipse farthest-corner at 75vw -40vw, white, #32183E 65%);
+		background: radial-gradient(ellipse farthest-corner at 118vw -30vw, white, #32183E 65%);
 	}
   45% {
-		background: radial-gradient(ellipse farthest-corner at 75vw -38vw, white, #32183E 65%);
+		background: radial-gradient(ellipse farthest-corner at 118vw -28vw, white, #32183E 65%);
 	}
 	50% {
-		background: radial-gradient(ellipse farthest-corner at 75vw -35vw, white, #32183E 65%);
+		background: radial-gradient(ellipse farthest-corner at 118vw -25vw, white, #32183E 65%);
 	}
 	52% {
-		background: radial-gradient(ellipse farthest-corner at 75vw -38vw, white, #32183E 65%);
+		background: radial-gradient(ellipse farthest-corner at 118vw -28vw, white, #32183E 65%);
 	}
 	54% {
-		background: radial-gradient(ellipse farthest-corner at 75vw -40vw, white, #32183E 65%);
+		background: radial-gradient(ellipse farthest-corner at 118vw -30vw, white, #32183E 65%);
 	}
   65% {
-		background: radial-gradient(ellipse farthest-corner at 75vw -43vw, white, #32183E 65%);
+		background: radial-gradient(ellipse farthest-corner at 118vw -33vw, white, #32183E 65%);
 	}
   85% {
-		background: radial-gradient(ellipse farthest-corner at 75vw -45vw, white, #32183E 65%);
+		background: radial-gradient(ellipse farthest-corner at 118vw -35vw, white, #32183E 65%);
 	}
   95% {
-		background: radial-gradient(ellipse farthest-corner at 75vw -48vw, white, #32183E 65%);
+		background: radial-gradient(ellipse farthest-corner at 118vw -38vw, white, #32183E 65%);
 	}
 	100% {
-		background: radial-gradient(ellipse farthest-corner at 75vw -50vw, white, #32183E 65%);
+		background: radial-gradient(ellipse farthest-corner at 118vw -40vw, white, #32183E 65%);
 	}
 }
 
 @keyframes pulse {
   0% {
-    -webkit-box-shadow: 0px -10px 30px 1px #B72569;
-    -moz-box-shadow: 0px -10px 30px 1px #B72569;
-    box-shadow: 0px -10px 30px 1px #B72569;
+    -webkit-box-shadow:  0px -.5vw 3vw .5vw #B72569;
+    -moz-box-shadow:  0px -.5vw 3vw .5vw #B72569;
+    box-shadow:  0px -.5vw 3vw .5vw #B72569;
     filter: brightness(85%);
   }
   4% {
-    -webkit-box-shadow: 0px -10px 35px 1px #B72569;
-    -moz-box-shadow: 0px -10px 35px 1px #B72569;
-    box-shadow: 0px -10px 35px 1px #B72569;
+    -webkit-box-shadow: 0px -.5vw 3.5vw .5vw #B72569;
+    -moz-box-shadow: 0px -.5vw 3.5vw .5vw #B72569;
+    box-shadow: 0px -.5vw 3.5vw .5vw #B72569;
     filter: brightness(88%);
   }
   8% {
-    -webkit-box-shadow: 0px -10px 40px 1px #B72569;
-    -moz-box-shadow: 0px -10px 40px 1px #B72569;
-    box-shadow: 0px -10px 40px 1px #B72569;
+    -webkit-box-shadow: 0px -.5vw 4vw .5vw #B72569;
+    -moz-box-shadow: 0px -.5vw 4vw .5vw #B72569;
+    box-shadow: 0px -.5vw 4vw .5vw #B72569;
     filter: brightness(90%);
   }
   15% {
-    -webkit-box-shadow: 0px -10px 45px 1px #B72569;
-    -moz-box-shadow: 0px -10px 45px 1px #B72569;
-    box-shadow: 0px -10px 45px 1px #B72569;
+    -webkit-box-shadow: 0px -.5vw 4.5vw .5vw #B72569;
+    -moz-box-shadow: 0px -.5vw 4.5vw .5vw #B72569;
+    box-shadow: 0px -.5vw 4.5vw .5vw #B72569;
     filter: brightness(93%);
   }
   35% {
-    -webkit-box-shadow: 0px -10px 50px 1px #B72569;
-    -moz-box-shadow: 0px -10px 50px 1px #B72569;
-    box-shadow: 0px -10px 50px 1px #B72569;
+    -webkit-box-shadow: 0px -.5vw 5vw .5vw #B72569;
+    -moz-box-shadow: 0px -.5vw 5vw .5vw #B72569;
+    box-shadow: 0px -.5vw 5vw .5vw #B72569;
     filter: brightness(95%);
   }
   45% {
-    -webkit-box-shadow: 0px -10px 55px 1px #B72569;
-    -moz-box-shadow: 0px -10px 55px 1px #B72569;
-    box-shadow: 0px -10px 55px 1px #B72569;
+    -webkit-box-shadow: 0px -.5vw 5.5vw .5vw #B72569;
+    -moz-box-shadow: 0px -.5vw 5.5vw .5vw #B72569;
+    box-shadow: 0px -.5vw 5.5vw .5vw #B72569;
     filter: brightness(98%);
   }
   50% {
-    -webkit-box-shadow: 0px -10px 60px 1px #B72569;
-    -moz-box-shadow: 0px -10px 60px 1px #B72569;
-    box-shadow: 0px -10px 60px 1px #B72569;
+    -webkit-box-shadow: 0px -.5vw 6vw .5vw #B72569;
+    -moz-box-shadow: 0px -.5vw 6vw .5vw #B72569;
+    box-shadow: 0px -.5vw 6vw .5vw #B72569;
     filter: brightness(100%);
   }
   54% {
-    -webkit-box-shadow: 0px -10px 55px 1px #B72569;
-    -moz-box-shadow: 0px -10px 55px 1px #B72569;
-    box-shadow: 0px -10px 55px 1px #B72569;
+    -webkit-box-shadow: 0px -.5vw 5.5vw .5vw #B72569;
+    -moz-box-shadow: 0px -.5vw 5.5vw .5vw #B72569;
+    box-shadow: 0px -.5vw 5.5vw .5vw #B72569;
     filter: brightness(98%);
   }
   58% {
-    -webkit-box-shadow: 0px -10px 50px 1px #B72569;
-    -moz-box-shadow: 0px -10px 50px 1px #B72569;
-    box-shadow: 0px -10px 50px 1px #B72569;
+    -webkit-box-shadow: 0px -.5vw 5vw .5vw #B72569;
+    -moz-box-shadow: 0px -.5vw 5vw .5vw #B72569;
+    box-shadow: 0px -.5vw 5vw .5vw #B72569;
     filter: brightness(95%);
   }
   65% {
-    -webkit-box-shadow: 0px -10px 45px 1px #B72569;
-    -moz-box-shadow: 0px -10px 45px 1px #B72569;
-    box-shadow: 0px -10px 45px 1px #B72569;
+    -webkit-box-shadow: 0px -.5vw 4.5vw .5vw #B72569;
+    -moz-box-shadow: 0px -.5vw 4.5vw .5vw #B72569;
+    box-shadow: 0px -.5vw 4.5vw .5vw #B72569;
     filter: brightness(93%);
   }
   85% {
-    -webkit-box-shadow: 0px -10px 40px 1px #B72569;
-    -moz-box-shadow: 0px -10px 40px 1px #B72569;
-    box-shadow: 0px -10px 40px 1px #B72569;
+    -webkit-box-shadow: 0px -.5vw 4vw .5vw #B72569;
+    -moz-box-shadow: 0px -.5vw 4vw .5vw #B72569;
+    box-shadow: 0px -.5vw 4vw .5vw #B72569;
     filter: brightness(90%);
   }
   95% {
-    -webkit-box-shadow: 0px -10px 35px 1px #B72569;
-    -moz-box-shadow: 0px -10px 35px 1px #B72569;
-    box-shadow: 0px -10px 35px 1px #B72569;
+    -webkit-box-shadow: 0px -.5vw 3.5vw .5vw #B72569;
+    -moz-box-shadow: 0px -.5vw 3.5vw .5vw #B72569;
+    box-shadow: 0px -.5vw 3.5vw .5vw #B72569;
     filter: brightness(88%);
   }
   100% {
-    -webkit-box-shadow: 0px -10px 30px 1px #B72569;
-    -moz-box-shadow: 0px -10px 30px 1px #B72569;
-    box-shadow: 0px -10px 30px 1px #B72569;
+    -webkit-box-shadow: 0px -.5vw 3vw .5vw #B72569;
+    -moz-box-shadow: 0px -.5vw 3vw .5vw #B72569;
+    box-shadow: 0px -.5vw 3vw .5vw #B72569;
     filter: brightness(85%);
+  }
+}
+@media (max-width: 420px) {
+  .Sun {
+    top: 0;
+    position: relative;
+    width: 20em;
+    height: 20em;
   }
 }

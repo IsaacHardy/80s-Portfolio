@@ -37,7 +37,7 @@ COLORS:
   left: 0;
   display: flex;
   flex-wrap: wrap;
-  width: 20em;
+  width: 20vw;
 	z-index: 2;
 }
 
@@ -56,7 +56,19 @@ COLORS:
 .nav a {
   color: #FFD265;
   padding: 1em;
-  font-size: 1.5em;
+  font-size: 1vw;
+}
+
+@media (max-width: 420px) {
+  .nav {
+    width: 20em;
+  }
+
+  .nav a {
+    color: #FFD265;
+    padding: 1em;
+    font-size: 1em;
+  }
 }
 
 .nav a:hover {

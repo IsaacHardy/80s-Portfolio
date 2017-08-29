@@ -10,7 +10,7 @@ COLORS:
 
 .Square {
   z-index: 1;
-  width: 8em;
+  width: 12em;
   height: 4em;
   border: 1px solid #C568A5;
   -webkit-box-shadow: 0px 0px 27px 5px #B72569;

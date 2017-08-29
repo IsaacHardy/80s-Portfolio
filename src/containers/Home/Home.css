@@ -9,13 +9,19 @@ COLORS:
 */
 
 .Home {
-  height: 62%;
-  max-height: 450px;
+  height: 35vw;
+  max-height: 75vw;
   z-index: 5;
-  margin-top: 250px;
-  background: radial-gradient(ellipse farthest-corner at 75vw -50vw, white, #32183E 65%);
+  margin-top: 18vw;
+  background: radial-gradient(ellipse farthest-corner at 118vw -40vw, white, #32183E 65%);
   display: flex;
   flex-direction: column;
   flex-wrap: nowrap;
   transform: perspective(400px) scaleY(1) rotateX(50deg) skewX(0deg);
+}
+
+@media (max-width: 420px) {
+  .Home {
+    display: none;
+  }
 }
