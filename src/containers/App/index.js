@@ -41,6 +41,7 @@ class App extends Component {
           {generateStars()}
         </div>
         <Sun />
+        <Sun />
         {this.props.children}
       </div>
     );
